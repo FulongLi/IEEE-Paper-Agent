@@ -1,0 +1,4 @@
+interface:
+  display_name: "IEEE Paper LaTeX Writing"
+  short_description: "Write, revise, and validate IEEE-style research papers in LaTeX."
+  default_prompt: "Use this skill to plan, draft, revise, or audit an IEEE-style LaTeX research paper for publication readiness."
