@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Local PDF parsing outputs can be large and may contain copyrighted source text.
+knowledge-base/power-electronics-foundations/raw-mineru-output/
+knowledge-base/power-electronics-foundations/workspace/
+knowledge-base/power-electronics-foundations/private-fulltext-cache/
+mineru-output/

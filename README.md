@@ -23,6 +23,8 @@ IEEE-Paper-Agent/
 │   ├── OJCSYS_template_Latex/
 │   ├── IEEE-ojpel-latex-template/
 │   └── Transactions_win_or_mac_LaTeX2e_style_file/
+├── knowledge-base/
+│   └── power-electronics-foundations/
 └── skills/
     └── ieee-paper-latex-writing/
         ├── SKILL.md
@@ -85,6 +87,16 @@ Use ieee-paper-latex-writing to help me rewrite the abstract and introduction fo
 - `references/writing-playbook.md`: Writing guidance for IEEE research papers, including titles, abstracts, Introduction, Related Work, Methods, Experiments, figures, tables, and tone.
 - `references/latex-submission-checklist.md`: IEEE LaTeX pre-submission checklist.
 - `references/reviewer-response.md`: Reviewer-response and revision workflow.
+
+## Power Electronics Knowledge Base
+
+The repository includes a curated knowledge base at:
+
+```text
+knowledge-base/power-electronics-foundations/
+```
+
+It provides domain vocabulary, concept maps, IEEE-style sentence patterns, and a MinerU workflow for authorized local PDF parsing. Raw full-book PDF conversions are intentionally ignored by Git to avoid committing copyrighted or very large extracted content.
 
 ## Recommended Workflow
 
