@@ -1,6 +1,10 @@
 # macOS
 .DS_Store
 
+# Local source books. Keep full copyrighted PDFs out of commits unless the
+# repository owner has explicit redistribution rights.
+books/*.pdf
+
 # Local PDF parsing outputs can be large and may contain copyrighted source text.
 knowledge-base/power-electronics-foundations/raw-mineru-output/
 knowledge-base/power-electronics-foundations/workspace/

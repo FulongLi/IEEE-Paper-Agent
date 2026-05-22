@@ -4,6 +4,22 @@ A LaTeX template and writing-skill repository for drafting, organizing, and revi
 
 This repository helps authors quickly find the right IEEE LaTeX template and use a structured writing workflow to turn research ideas into publication-ready manuscripts.
 
+## Start With Codex
+
+Open this repository in Codex and use this prompt:
+
+```text
+Use this repository as an IEEE paper-writing assistant. Follow AGENTS.md and workflows/idea-to-paper.md. My research idea is: <paste idea>. Help me turn it into a publishable paper plan.
+```
+
+Codex should use:
+
+- `AGENTS.md` for repository-level operating instructions
+- `skills/ieee-paper-latex-writing/SKILL.md` for the core writing and LaTeX workflow
+- `workflows/idea-to-paper.md` for idea-to-paper planning
+- `knowledge-base/power-electronics-foundations/` for power electronics terminology and concept notes
+- `templates/` for reusable idea briefs and paper plans
+
 ## What This Repository Does
 
 - Collects common IEEE LaTeX templates, including conference, Transactions/journal, IEEE Access, TAI, OJCSYS, and OJPEL formats.
@@ -25,6 +41,8 @@ IEEE-Paper-Agent/
 │   └── Transactions_win_or_mac_LaTeX2e_style_file/
 ├── knowledge-base/
 │   └── power-electronics-foundations/
+├── workflows/
+├── templates/
 └── skills/
     └── ieee-paper-latex-writing/
         ├── SKILL.md
@@ -97,6 +115,16 @@ knowledge-base/power-electronics-foundations/
 ```
 
 It provides domain vocabulary, concept maps, IEEE-style sentence patterns, and a MinerU workflow for authorized local PDF parsing. Raw full-book PDF conversions are intentionally ignored by Git to avoid committing copyrighted or very large extracted content.
+
+## Workflows and Templates
+
+Use these files when turning an early idea into a paper:
+
+- `workflows/idea-to-paper.md`: raw idea to research spine, contributions, outline, and evidence plan
+- `workflows/paper-production.md`: paper plan to LaTeX manuscript workflow
+- `workflows/prompt-library.md`: copy-ready prompts for Codex
+- `templates/research-idea-brief.md`: input template for a new idea
+- `templates/paper-plan.md`: structured output template for a paper plan
 
 ## Recommended Workflow
 
